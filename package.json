@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test/* --exit", 
+    "test": "mocha ./test/* --exit",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
@@ -17,6 +17,7 @@
     "supertest": "^6.1.6"
   },
   "dependencies": {
+    "curl": "^0.1.4",
     "express": "^4.17.1"
   }
 }
